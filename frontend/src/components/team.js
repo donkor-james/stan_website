@@ -11,7 +11,7 @@ const Team = () => {
         Meet the Faces Behind Our Exceptional Services
       </div>
       <div className="employee-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-5 mt-8 mb-10">
-        <div className="employee-card h-80 bg-white p-3 rounded shadow-md">
+        <div className="employee-card h-80 bg-white p-3 md:px-5 rounded shadow-md">
           <img
             src={single}
             alt="Employee 1"

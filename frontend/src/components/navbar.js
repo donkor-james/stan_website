@@ -16,14 +16,18 @@ const Navbar = () => {
     }
   };
   return (
-    <div>
+    <div className="sticky top-0 bg-white z-10 shadow-md border-b">
       <nav className="px-4 border-b-1 flex justify-between items-center nav">
-        <div className="flex items-center">
-          <img
-            src={stan}
-            alt="Business Logo"
-            className="h-[10px] md:w-28 w-24 mr-3 md:my-0 my-3 rounded"
-          />
+        <div className="md:ml-8 ml-2">
+          <a href="/">
+            <div className="flex items-center">
+              <img
+                src={stan}
+                alt="Business Logo"
+                className="h-[10px] md:w-28 w-24 mr-3 md:my-0 my-3 rounded"
+              />
+            </div>
+          </a>
         </div>
         <div className="flex items-center space-x-4 md:hidden">
           <button
@@ -51,16 +55,16 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex justify-between items-center mr-20">
           <div className="flex items-center">
-            <div className="current px-7 py-6 text-lg hover:text-yellow-400">
+            <div className="current px-7 py-6 text-lg hover:text-gray-700">
               <Link to="/">Home</Link>
             </div>
-            <div className="text-grey-600 px-5 text-lg hover:text-yellow-400">
+            <div className="text-grey-600 px-5 text-lg hover:text-gray-700">
               <Link to="/services">Services</Link>
             </div>
-            <div className="text-grey-600 px-5 text-lg hover:text-yellow-400">
+            <div className="text-grey-600 px-5 text-lg hover:text-gray-700">
               <Link to="/about">About Us</Link>
             </div>
-            <div className="text-grey-600 px-5 text-lg hover:text-yellow-400">
+            <div className="text-grey-600 px-5 text-lg hover:text-gray-700">
               <Link to="/contact">Contact Us</Link>
             </div>
           </div>
@@ -87,18 +91,18 @@ const Navbar = () => {
             X
           </button>
           <div className="flex flex-col space-y-4 mt-8">
-            <a href="#" className="text-white text-lg hover:text-yellow-400">
-              Home
-            </a>
+            <div className="text-white text-lg hover:text-yellow-400">
+              <Link to="/">Home</Link>
+            </div>
             <div className="text-white text-lg hover:text-yellow-400">
               <Link to="/services">Services</Link>
             </div>
-            <a href="#" className="text-white text-lg hover:text-yellow-400">
-              About Us
-            </a>
-            <a href="#" className="text-white text-lg hover:text-yellow-400">
-              Contact Us
-            </a>
+            <div className="text-white text-lg hover:text-yellow-400">
+              <Link to="/about">About Us</Link>
+            </div>
+            <div className="text-white text-lg hover:text-yellow-400">
+              <Link to="/contact">Contact Us</Link>
+            </div>
             <a
               href="#"
               className="bg-yellow-400 text-black font-normal py-2 px-4 rounded hover:bg-yellow-500 transition duration-300"

@@ -7,7 +7,7 @@ const Faq = () => {
   const [activeQuestion, setActiveQuestion] = useState(null);
 
   return (
-    <section className="faq">
+    <section className="faq bg-gray-200">
       <h2 className="text-3xl text-[#4CAF50] text-center font-bold mb-2">
         Frequently Asked <span className="span">Questions</span>
       </h2>

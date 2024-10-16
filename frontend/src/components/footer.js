@@ -7,17 +7,17 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex sm:flex-row flex-wrap justify-between md:mx-32 sm:mx-16 mx-4">
           <div className="mb-4 mr-6">
-            <h2 className="text-lg font-semibold">Contact Us</h2>
+            <div className="text-lg font-semibold">Contact Us</div>
             <p>Stan Consultancy</p>
             <p>KNUST - Kumasi</p>
             <p>Ghana</p>
             <p>+233 247839941</p>
           </div>
           <div className="mb-4 mr-6">
-            <h2 className="text-lg font-semibold">Quick Links</h2>
+            <div className="text-lg font-semibold">Quick Links</div>
             <ul>
               <div className="hover:underline">
-                <Link to="">Home</Link>
+                <Link to="/">Home</Link>
               </div>
               {/* <li>
                   <a href="#" className="hover:underline">
@@ -38,7 +38,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mb-5 md:-mt-1 mr-6">
-            <h2 className="text-lg font-semibold">Follow Us</h2>
+            <div className="text-lg font-semibold">Follow Us</div>
             <ul className="flex flex-col mt-1">
               <li>
                 <a
