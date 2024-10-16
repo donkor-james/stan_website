@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/stan_website/static/css/main.7cf460e8.css",
+    "main.js": "/stan_website/static/js/main.51db20e1.js",
+    "static/js/453.80304955.chunk.js": "/stan_website/static/js/453.80304955.chunk.js",
+    "static/media/group4.jpg": "/stan_website/static/media/group4.bb56c203a12290b300d5.jpg",
+    "static/media/group2.jpg": "/stan_website/static/media/group2.ebc6ada83f3f7e0730bc.jpg",
+    "static/media/group3.jpg": "/stan_website/static/media/group3.521d77270c6835ec0c0b.jpg",
+    "static/media/stan.jpg": "/stan_website/static/media/stan.aed8bf96999597a25aa1.jpg",
+    "static/media/single.jpg": "/stan_website/static/media/single.7dcae88fdeb309a9bd6a.jpg",
+    "static/media/group.jpg": "/stan_website/static/media/group.af5f893c5ea0c5270f24.jpg",
+    "static/media/cm.jpg": "/stan_website/static/media/cm.4c0aac01920549a1d6ef.jpg",
+    "static/media/fl.jpg": "/stan_website/static/media/fl.42f8f09194bff33c07a2.jpg",
+    "static/media/lg.jpg": "/stan_website/static/media/lg.9d7ad8bef8e46250089d.jpg",
+    "static/media/secure.jpg": "/stan_website/static/media/secure.d6853eb5f573c4b7c087.jpg",
+    "static/media/lmm.jpg": "/stan_website/static/media/lmm.88082d3b3d231696046f.jpg",
+    "static/media/grth.jpg": "/stan_website/static/media/grth.a76301d7d82805b28c99.jpg",
+    "index.html": "/stan_website/index.html",
+    "main.7cf460e8.css.map": "/stan_website/static/css/main.7cf460e8.css.map",
+    "main.51db20e1.js.map": "/stan_website/static/js/main.51db20e1.js.map",
+    "453.80304955.chunk.js.map": "/stan_website/static/js/453.80304955.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cf460e8.css",
+    "static/js/main.51db20e1.js"
+  ]
+}

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useNavigate, useParams, useLocation } from "react-router-dom";
+import React from "react";
+import { useParams, useLocation } from "react-router-dom";
 import ServiceData from "../data/services.json";
 import Navbar from "./navbar";
 import Footer from "./footer";

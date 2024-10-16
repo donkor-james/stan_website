@@ -11,24 +11,7 @@ function Contact() {
   const [success, setSuccess] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    axios
-      .post("http://localhost:5000/api/contact", {
-        name: name,
-        email: email,
-        message: message,
-      })
-      .then((res) => {
-        console.log(res);
-        setSuccess(true);
-      })
-      .catch((err) => {
-        if (err.response) {
-          console.log(err.response.data);
-        } else {
-          console.log(err.message);
-        }
-      });
+    console.log(e);
   };
   return (
     <div>
