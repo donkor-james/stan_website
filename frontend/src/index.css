@@ -14,6 +14,34 @@ body{
   background-position: 20% 20%;
   height: 540px;
 }
+.services-hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.86)), url('./images/group4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 20%;
+  height: 380px;
+}
+.contact-hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.86)), url('./images/group.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 20%;
+  height: 380px;
+}
+.detailed-hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.86)), url('./images/group4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20% 20%;
+  height: 340px;
+}
+.about-hero{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.86)), url('./images/group2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 32%;
+  height: 380px;
+}
 
 @media (max-width: 640px) {
   .hero{
@@ -31,7 +59,7 @@ body{
 }
 
 .faq {
-  background-color: #F7F7F7; /* Light gray background */
+  /* background-color: #F7F7F7; Light gray background */
   padding: 2.4rem;
 }
 
@@ -89,9 +117,39 @@ color: #40bab4;
 }
 
 .employee-card{
-  max-width: 340px;
+  max-width: 360px;
+}
+
+.green-border{
+  border: 0.2px solid #40bab4a2;
+}
+
+.form{
+  border: 0.1px solid #40bab446;
+}
+
+.green-border:focus{
+  outline: 0.8px solid #40bab4;
+
 }
 
 .welcome h2{
   /* border-bottom: 2px solid #40bab4; */
+}
+
+h2, h3{
+  color: #111f2d;
+}
+
+.alert{
+  border: 1px solid #40bab4;
+  color: #40bab4;
+  background-color: #d5e8e7;
+
+}
+
+.alert-warning{
+  /* border: 1px solid red;
+  color: red;
+  background-color: rgb(247, 245, 245); */
 }
