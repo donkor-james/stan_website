@@ -7,7 +7,7 @@ import growth from "../images/grth.jpg";
 // import planning from "../images/fm.jpg";
 import leadership from "../images/lg.jpg";
 import personal from "../images/secure.jpg";
-import company from "../images/cm.jpg";
+import company from "../images/fm.jpg";
 import legal from "../images/lmm.jpg";
 import Team from "./team";
 import Navbar from "./navbar";
