@@ -13,6 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "home": "https://donkor-james/github.io/stan_website/build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
